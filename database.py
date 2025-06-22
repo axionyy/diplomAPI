@@ -89,7 +89,8 @@ class UserWeightHistory(Base):
 
 
 # Создание подключения к базе данных
-engine = create_engine("postgresql://postgres:1153@localhost:5432/test1", echo=True)
+engine = create_engine("postgresql://diplom_v91y_user:MUmARmEkA6z4FZ5fIpE3NkDmTkluMe0L@dpg-d1c7ocuuk2gs73af1ah0-a.oregon-postgres.render.com:5432/diplom_v91y", echo=True)
+
 
 # Создание таблиц
 Base.metadata.create_all(engine)
